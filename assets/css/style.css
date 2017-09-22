@@ -1,0 +1,32 @@
+.contents-section {
+    background: #666;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px 0
+}
+
+h1 {
+    background: #e3e3e3;
+    background: -moz-linear-gradient(top, #e3e3e3, #c8c8c8);
+    background: -webkit-gradient(linear, left top, left bottom, from (#e3e3e3), to(#c8c8c8));
+    padding: 10px 20px;
+    margin-left: -20px;
+    margin-top: 0;
+    position: relative;
+    width: 70%;
+    -moz-box-shadow: 1px 1px 3px #292929;
+    -webkit-box-shadow: 1px 1px 3px #292929;
+    box-shadow: 1px 1px 3px #292929;
+    color: #454545;
+    text-shadow: 0 1px 0 white;
+}
+
+.arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-top: 10px solid #c8c8c8;
+    top: 104%;
+    left: 0;
+}
